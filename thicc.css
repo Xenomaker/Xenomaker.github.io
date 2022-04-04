@@ -6,6 +6,32 @@
     top: -35px;
 }
 
+.square2 {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  top: 820px;
+  color: rgb(235, 215, 187);
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+#label1 {
+  top: -78px;
+  width: 300px;
+  height: 300px;
+  left: 820px;
+}
+
+p {
+  border-style: double;
+  position: fixed;
+  height: 830px;
+  width: 500px;
+  top: 100px;
+}
+
 
 body {
     background-color: rgb(235, 215, 187);
@@ -135,7 +161,20 @@ img {
 }
 
 button {
-  background-color: rgb(247, 225, 194);
+  background-color: rgb(243, 213, 171);
   position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   top: 500px;
+  left: 860px;
+  font-size: large;
+  font-family: cursive;
+  border-radius: 40px;
+  
+}
+
+button:hover {
+  background-color: rgb(241, 198, 136);
 }
