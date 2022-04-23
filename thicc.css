@@ -1,3 +1,8 @@
+@viewport {
+   zoom: 1.0;
+   width: device-width;
+}
+
 .square { 
     height: 25px;
     width: 100%;
@@ -284,4 +289,10 @@ img {
 /*color for link2*/
 #link2 {
   color: black;
+}
+
+#name1 {
+  position: fixed;
+  left: 1650px;
+  top: 160px;
 }
