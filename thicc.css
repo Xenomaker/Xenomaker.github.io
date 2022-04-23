@@ -1,6 +1,10 @@
-@viewport {
-   zoom: 1.0;
-   width: device-width;
+const resizeOps = () => {
+  document: .documentElement .style .setProperty;("--vh", window.innerheight * 0.01 + "px");
+}
+
+html, body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .square { 
