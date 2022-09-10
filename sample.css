@@ -1,9 +1,9 @@
 .square {
-    height: 50px;
-    width: 1428px;
+    max-height: 50px;
+    max-width: 100%;
     background-color: yellow;
     color: black;
-    max-width: 100%;
+    
 }
 
 
